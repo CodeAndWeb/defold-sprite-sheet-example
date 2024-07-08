@@ -1,0 +1,18 @@
+file: "/assets/spritesheets/game-scene.tpinfo"
+rename_patterns: ""
+animations {
+  id: "capguy"
+  images: "capguy/walk-1"
+  images: "capguy/walk-2"
+  images: "capguy/walk-3"
+  images: "capguy/walk-4"
+  images: "capguy/walk-5"
+  images: "capguy/walk-6"
+  images: "capguy/walk-7"
+  images: "capguy/walk-8"
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 10
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+is_paged_atlas: false

@@ -1,0 +1,12 @@
+local MOVE_SPEED = 150
+local OFF_SCREEN = 1000
+local LEFT_SIDE = -50
+
+function fixed_update(self, dt)
+	local pos = go.get_position()
+	pos.x = pos.x + MOVE_SPEED * dt
+	if pos.x > OFF_SCREEN then
+		pos.x = LEFT_SIDE;
+	end
+	go.set_position(pos)
+end
